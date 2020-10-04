@@ -1,3 +1,9 @@
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
 .cards {
   padding: 4rem;
   background: #fff;
@@ -28,7 +34,7 @@ h1 {
 .cards__item {
   display: flex;
   flex: 1;
-  margin: 0 1rem;
+  margin: 0rem;
   border-radius: 10px;
 }
 
@@ -46,7 +52,7 @@ h1 {
 
 .cards__item__pic-wrap {
   position: relative;
-  width: 100%;
+  width: 90%;
   padding-top: 67%;
   overflow: hidden;
 }
@@ -77,8 +83,8 @@ h1 {
   bottom: 0;
   left: 0;
   display: block;
-  width: 100%;
-  max-width: 100%;
+  width: 90%;
+  max-width: 1120px;
   height: 100%;
   max-height: 100%;
   object-fit: cover;
